@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <h1>Tic Tac Toe</h1> -->
+    <div class="container">
+        <div class="turn">
+            <h2><b id="turn">X</b> Turn</h2>
+        </div>
+        <div class="mainBox">
+            <div class="row">
+                <div class="box" id="one"></div>
+                <div class="box" id="two"></div>
+                <div class="box" id="three"></div>
+            </div>
+            <div class="row">
+                <div class="box" id="four"></div>
+                <div class="box" id="five"></div>
+                <div class="box" id="six"></div>
+            </div>
+            <div class="row">
+                <div class="box" id="seven"></div>
+                <div class="box" id="eight"></div>
+                <div class="box" id="nine"></div>
+            </div>
+            <div class="result">
+                <h2 id="none"><b id="result"></b></h2>
+                <button onclick="Reload()">Play Again</button>
+            </div>
+        </div>
+        
+        <button onclick="gameOver()">Reset</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
